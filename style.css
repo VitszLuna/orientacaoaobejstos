@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container2 {
+  max-width: 1000px;
+  width: 80%;
+  height: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+
+.navegacao {
+  display: flex;
+  gap: 20px;
+}
+
+.navegacao a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.search input {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search button {
+  padding: 6px 12px;
+  margin-left: 5px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.prof {
+  background-image: url('https://png.pngtree.com/png-clipart/20220223/original/pngtree-man-teacher-teaching-class-with-book-and-pointer-png-image_7310572.png');
+  background-repeat: no-repeat;
+  background-size: contain; /* ou use 'cover' */
+  background-position: center;
+  position: relative;
+  bottom: 100px;
+  right: 330px;
+  height: 400px; /* tente ajustar entre 600px e 1200px */
+}
+
+.fundo {
+  background-image: url('https://tipscode.com.br/thumbnail-article/orientacao-a-objetos-javascript-um-guia-para-iniciantes.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.contIntrocução {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contIntrocução h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.introducao {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0e6e6;
+  border: 2px solid #c0392b;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.carde {
+  height: auto; /* pode ajustar conforme necessário */
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.centro{
+  text-shadow: 2px 2px 4px rgba(167, 103, 103, 0.7);
+text-align: center;
+}
+
+.subtitulo{
+  font-size: 15px;
+ font-weight: 900;
+  
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://via.placeholder.com/1920x1080'); /* Imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  color: rgb(196, 7, 7);
+}
+
+
+li {
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+li:hover {
+  background-color: rgba(194, 70, 70, 0.3);
+}
+
+#itemInput {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  font-size: 16px;
+  background: rgba(136, 2, 2, 0.2);
+  color: rgb(0, 0, 0);
+}
+
+#adicionarItemBtn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#adicionarItemBtn:hover {
+  background-color: #45a049;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.code-block {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  font-family: monospace;
+  position: relative;
+}
+
+.code-block pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.code-block button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.code-block button:hover {
+  background-color: #084298;
+}
+
+.resultado {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #272727;
+  color: #00ff7f;
+  font-weight: bold;
+  border-radius: 4px;
+}
