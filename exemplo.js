@@ -1,29 +1,16 @@
-// Função para executar o exemplo de fruta
-const fruta = {
-  nome: "Maçã",
-  cor: "Vermelha",
-  sabor: function() {
-    return "Doce";
-  }
-};
+function mostrarFruta() {
+  const nome = "Maçã";
+  const cor = "Vermelha";
+  const sabor = "Doce";
+}
+alert("Informações da Fruta: nome:Maçã cor:Vermelha sabor:Doce");
 
-document.getElementById("botao1").addEventListener("click", function () {
+// Função 2: Mostra informações do teclado
+function mostrarTeclado() {
+  const qualidade = "Novo";
+  const disponibilidade = "Disponível";
+
   alert(
-    "Nome: " + fruta.nome + "\n" +
-    "Cor: " + fruta.cor + "\n" +
-    "Sabor: " + fruta.sabor()
+    "Informações do Teclado:Qualidade:Nova, Disponibilidade:disponivel"
   );
-});
-
-// Função para executar o exemplo de teclado
-const teclado = {
-  qualidade: "Novo",
-  podevender: "Disponível",  // pode ser 'Disponível' ou 'Não Disponível'
-  mostrarInfo: function() {
-    alert("O teclado está " + this.qualidade + " e o teclado está: " + this.podevender);
-  }
-};
-
-document.getElementById("botao2").addEventListener("click", function () {
-  teclado.mostrarInfo();
-});
+}
